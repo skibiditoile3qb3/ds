@@ -1,16 +1,20 @@
 {
-"manifest_version": 2,
-"display": "standalone",
-"name": "DS Emulator",
-"version": "1.0",
-"description": "Emulator of NDS",
-"icons":  {
-"16": "16.png",
-"48": "48.ico",
-"128": "128.png",
-},
-"browser_action": {
-"default_popup": "index.html",
-"default_icon": "128.png"
-}
+  "name": "DS Emulator",
+  "short_name": "DS Emulator",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "icons": [
+      {
+          "src": "icon.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable" // マスク可能なアイコン（透過部分が白背景にならず、アイコンですべて埋まるようにトリミングされる）
+      },
+      {
+          "src": "icon.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+      }
+  ]
 }
