@@ -1,5 +1,5 @@
 {
-name: "DS Emulator",
+  name: "DS Emulator",
 short_name: "DS Emulator",
 icons: [
 {
